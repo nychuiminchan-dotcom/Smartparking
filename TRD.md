@@ -74,7 +74,7 @@ Responsibilities:
 
 ## 3. Data Inputs and Contracts
 
-## 3.1 Static HDB Data (CSV)
+### 3.1 Static HDB Data (CSV)
 
 Source: `data/HDBCarparkInformation.csv`
 
@@ -87,7 +87,7 @@ Parsing/validation requirements:
 - Keep categorical values as raw source values (no undocumented semantic reinterpretation for free/short-term parking).
 - Record row-level validation issues with diagnostics.
 
-## 3.2 Live Availability Data (data.gov.sg)
+### 3.2 Live Availability Data (data.gov.sg)
 
 Endpoint: `/v1/transport/carpark-availability` (recommended one-minute polling cadence).
 
